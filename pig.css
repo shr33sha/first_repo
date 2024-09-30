@@ -1,0 +1,40 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff69b4; /* Pink color */
+    margin-bottom: 20px;
+}
+
+.sleeping-pig {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
